@@ -1,0 +1,9 @@
+Get running interfaces
+..code: bash
+  curl -u root:D_Vay\!_10\& \
+    -H "Accept: application/vnd.yang.data+json" \
+    http://ios-xe-mgmt.cisco.com:9443/restconf/api/running/interfaces
+
+Get Postman Collection (open link in postman)
+..code: bash
+  https://www.getpostman.com/collections/0f646c875e3b1f9d644e
