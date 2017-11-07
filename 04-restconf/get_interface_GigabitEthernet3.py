@@ -17,5 +17,7 @@ headers = {}
 headers["Authorization"] = "Basic cm9vdDpEX1ZheSFfMTAm"
 headers["Accept"] = "application/vnd.yang.data+json"
 
-response = requests.request("GET", url, headers=headers, params=querystring)
+response = requests.request("GET", url,
+                            headers=headers,
+                            params=querystring)
 print(json.dumps(response.json(), indent=3))
