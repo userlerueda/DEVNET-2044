@@ -6,6 +6,8 @@ Get running interfaces
        http://ios-xe-mgmt.cisco.com:9443/restconf/api/running/interfaces/interface/GigabitEthernet1/ip:ipv4
     curl -u root:D_Vay\!_10\& -H "Accept: application/vnd.yang.api+json" \
        http://ios-xe-mgmt.cisco.com:9443/restconf/api
+    curl -u root:D_Vay\!_10\& -H "Accept: application/vnd.yang.datastore+json" \
+       http://ios-xe-mgmt.cisco.com:9443/restconf/api/running
 
 
 Get Postman Collection (open link in postman)
