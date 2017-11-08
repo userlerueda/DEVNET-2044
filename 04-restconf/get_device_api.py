@@ -7,14 +7,14 @@ HOST = 'ios-xe-mgmt.cisco.com'
 PORT = 9443
 USER = 'root'
 PASS = 'D_Vay!_10&'
-URI = "/restconf/api/running/interfaces/interface/GigabitEthernet3"
+URI = "/restconf/api"
 
 url = PREFIX + HOST + ":" + str(PORT) + URI
 querystring = {}
 
 headers = {}
 headers["Authorization"] = "Basic cm9vdDpEX1ZheSFfMTAm"
-headers["Accept"] = "application/vnd.yang.data+json"
+headers["Accept"] = "application/vnd.yang.api+json"
 
 response = requests.request("GET", url,
                             headers=headers,

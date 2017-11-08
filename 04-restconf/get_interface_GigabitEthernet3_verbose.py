@@ -11,6 +11,7 @@ URI = "/restconf/api/running/interfaces/interface/GigabitEthernet3"
 
 url = PREFIX + HOST + ":" + str(PORT) + URI
 querystring = {}
+querystring["verbose"] = ""
 
 headers = {}
 headers["Authorization"] = "Basic cm9vdDpEX1ZheSFfMTAm"
